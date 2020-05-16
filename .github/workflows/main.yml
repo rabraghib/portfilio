@@ -27,4 +27,7 @@ jobs:
         BASE_BRANCH: master
         BRANCH: gh-pages
         FOLDER: dist/Rabya-Raghib
-        BUILD_SCRIPT: npm install && npm run build -- --prod
+        run: |
+           npm install
+           npm run build
+        BUILD_SCRIPT: npm install && npm run build
