@@ -1,4 +1,4 @@
-export let email_send_url = "";
+export let email_send_url = "https://rabraghib.github.io/contact";
 
 export let logo_nav = "assets/IMGs/logo.navbar.png";
 export let logo_H_nav = "assets/IMGs/logo.H.navbar.png";
