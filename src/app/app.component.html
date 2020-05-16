@@ -1,0 +1,47 @@
+<aside>
+    <div class="nav_img_box uk-flex-middle">
+        <img id="V_img_nav" class="my_img" [src]="logo_nav_url">
+        <img id="H_img_nav" class="my_img" [src]="logo_H_nav_url">
+    </div>
+    <div class="uk-width-expand nav_box">
+        <a href="" [routerLink]="" routerLinkActive="router-link-active" ></a>
+        <a *ngFor="let item of routes_list"
+           [routerLink]="item.route" routerLinkActive="active" 
+           [title]="item.name" class="uk-width-1-1 uk-button">
+            <i [class]="item.logo"></i>
+            <p>{{ item.name }}</p>
+        </a>
+        <!--a routerLink="/about" routerLinkActive="active" [title]="routes.about" class="uk-width-1-1 uk-button">
+            <i class="fas fa-user-tie"></i>
+            <p>{{ routes.about }}</p>
+        </a>
+        <a routerLink="/resume" routerLinkActive="active" [title]="routes.resume" class="uk-width-1-1 uk-button">
+            <i class="fas fa-address-card"></i>
+            <p>{{ routes.resume }}</p>
+        </a>
+        <a routerLink="/projects/" routerLinkActive="active" [title]="routes.projects" class="uk-width-1-1 uk-button">
+            <i class="fas fa-briefcase"></i>
+            <p>{{ routes.projects }}</p>
+        </a>
+        <a routerLink="/contact" routerLinkActive="active" [title]="routes.contact" class="uk-width-1-1 uk-button">
+            <i class="fab fa-telegram"></i>
+            <p>{{ routes.contact }}</p>
+        </a-->
+    </div>
+</aside>
+
+<div class="container">
+    <div class="height_0">
+        <div class="uk-background-cover uk-position-relative uk-light surface_box">
+            <img [src]="back_img">
+        </div>
+    </div>
+    <div class="content_box">
+        <router-outlet></router-outlet>
+    </div>
+    <footer>
+        <div class="copyright uk-card-secondary">copyright &copy; 2020 Rabyâ Raghib</div>
+    </footer>
+</div>
+
+

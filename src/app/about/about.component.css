@@ -1,0 +1,15 @@
+.services_box{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+@media all and (min-width:960px) and (max-width:1200px){
+    .containner{
+        padding: 0px;
+    }
+}
+.uk-grid>* {
+    padding-left: 40px;
+}

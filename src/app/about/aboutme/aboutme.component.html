@@ -1,0 +1,37 @@
+<div class="uk-card containner uk-card-body">
+    <div class="uk-width-expand@s uk-width-1-1">
+        <h1 class="uk-card-title uk-heading-line myname_r">
+            <span>{{ data.FullName }}</span>
+        </h1>
+        <div class="uk-width-1-1 iframe-container uk-margin">
+            <iframe width="560" height="315" [src]="video_embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="uk-align-left toph uk-background-center-right uk-background-cover"
+          [style.background-image]="'url(' + data.img_src + ')'">
+        </div>
+        <a class="sc adress" target="_blank" [href]="data.Adress_url">
+            <i class="fa fa-map"></i>
+            <span>{{ data.Adress }}</span>
+        </a>
+        <p class="uk-margin-remove">{{ data.AboutMe }}</p>
+    </div>
+    <div class="about_footerbar uk-grid-match" uk-grid>
+        <div *ngFor="let item of data.Statiques" class="uk-width-1-4@l uk-width-1-3@m uk-width-1-2@s">
+            <div uk-grid>
+                <div class="uk-width-auto">
+                    <div class="sc_border icon_foot">
+                        <i [class]="item.logo_cl"></i>
+                    </div>
+                </div>
+                <div class="uk-width-expand cont">
+                    <h5>{{ item.name }}</h5>
+                    <h6 class="sc">{{ item.class }}</h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="uk-width-auto uk-text-center cv_link_box">
+            <a class="cv_link sc_border" target="_blank" [href]="data.CV_src">{{ data.D_CV_btn }}</a>
+        </div>
+    </div>
+</div>
