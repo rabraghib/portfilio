@@ -218,7 +218,7 @@ export let resume = {
         title: "Experiences",
         items_list: [
             {
-              name:"Freelancer",
+              name:"Lorem Ipsum.",
               time:"2019 - 2020",
               organisation:"UpWork",
               description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo odio consectetur ea ratione reprehenderit hic expedita ipsa iure deleniti. Ad voluptatem inventore, possimus exercitationem aliquam assumenda vitae recusandae doloribus dolore"
