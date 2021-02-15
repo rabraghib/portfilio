@@ -21,22 +21,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: dist/Rabya-Raghib # The folder the action should deploy.
-      - name: switch branch
-        run: git checkout gh-pages
-      - name: Read Index.html
-        id: package
-        uses: juliangruber/read-file-action@v1
-        with:
-          path: index.html
-      - name: Create 404.html
-        uses: finnp/create-file-action@master
-        env:
-          FILE_NAME: "404.html"
-          FILE_DATA: '${{ steps.package.outputs.content }}'
-      - name: Add & Commit
-        uses: EndBug/add-and-commit@v4.2.0
-        with:
-          add: 404.html
-          force: true
-          ref: gh-pages
+          FOLDER: dist/portfolio # The folder the action should deploy.
