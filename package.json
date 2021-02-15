@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build --prod --baseHref=/portfolio/",
+    "build": "ng build --prod --baseHref=/portfolio/  && cp dist/portfolio/index.html dist/portfolio/404.html",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
