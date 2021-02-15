@@ -1,38 +1,7 @@
 export let email_send_url = "https://rabraghib.github.io/contact";
 
-export let logo_nav = "assets/IMGs/logo.navbar.png";
-export let logo_H_nav = "assets/IMGs/logo.H.navbar.png";
-export let bg_img = "assets/IMGs/backg.jpg";
-export let routes = [
-    {
-        name:"Home",
-        logo:"fa fa-home",
-        route:"/."
-    },
-    {
-        name:"About",
-        logo:"fas fa-user-tie",
-        route:"/about"
-    },
-    {
-        name:"Resume",
-        logo:"fas fa-address-card",
-        route:"/resume"
-    },
-    {
-        name:"Projects",
-        logo:"fas fa-briefcase",
-        route:"/projects"
-    },
-    {
-        name:"Contact",
-        logo:"fab fa-telegram",
-        route:"/contact"
-    }
-];
-
 export let home = {
-    bg_img:"assets/IMGs/bg_img.home.jpg",
+    bg_img:"assets/images/bg_home.jpg",
     header:"welcome to my website",
     mytitles:[
         "Rabya Raghib",
@@ -50,17 +19,17 @@ export let about = {
     Services:[
         {
             name:"Front-end devloppement",
-            logo:"assets/IMGs/Services/front-end.png",
+            logo:"assets/images/Services/front-end.png",
             description:"lorm ipsum  dsb svdkjvkdsv  dsvkvjk d jksdv kvds  vds dvs vds dsvkh  khvds khdvs khdsv khvd skh khvds khvds khvd khvdkh  kh lorm ipsum  dsb svdkjvkdsv  dsvkvjk d jksdv kvds  vds dvs vds dsvkh  khvds khdvs khdsv khvd skh khvds khvds khvd khvdkh  kh"
         },
         {
             name:"Back-end devloppement",
-            logo:"assets/IMGs/Services/back-end.png",
+            logo:"assets/images/Services/back-end.png",
             description:"lorm ipsum  dsb svdkjvkdsv  dsvkvjk d jksdv kvds  vds dvs vds dsvkh  khvds khdvs khdsv khvd skh khvds khvds khvd khvdkh  kh"
         }
     ],
     about_me:{
-        img_src:"assets/IMGs/About/my_img.jpg",
+        img_src:"assets/images/About/my_img.jpg",
         video_embed_url:'https://www.youtube.com/embed/MHZGOJ1kysc?autoplay=1&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0',
         FullName:"Rabyâ Raghib",
         Adress:"Ouarzazate, Maroc.",
@@ -124,7 +93,7 @@ export let about = {
 
 export let contact = {
     contact_title:"Contact me",
-    map_bg:"assets/IMGs/map_bg.png",
+    map_bg:"assets/images/map_bg.png",
     form_placeholder:{
         full_name:"Full Name",
         email:"E-mail",
@@ -147,12 +116,7 @@ export let contact = {
             value:"(+212) 628036202",
             name:"Phone"
         }
-    ],
-    map_data:{
-        lat: 30.9398422,
-        lng:  -6.9369535,
-        zoom: 10
-    }
+    ]
 };
 
 export let projects = {
@@ -162,56 +126,56 @@ export let projects = {
             name:"Brand",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (1).jpg"
+            toph:"assets/images/Projects/p_name (1).jpg"
         },
         {
             type:"Mobile",
             name:"Design",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (2).jpg"
+            toph:"assets/images/Projects/p_name (2).jpg"
         },
         {
             type:"Desktop",
             name:"Brand",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (3).jpg"
+            toph:"assets/images/Projects/p_name (3).jpg"
         },
         {
             type:"Mobile",
             name:"Gtaphic",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (4).jpg"
+            toph:"assets/images/Projects/p_name (4).jpg"
         },
         {
             type:"Web",
             name:"Brand",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (1).jpg"
+            toph:"assets/images/Projects/p_name (1).jpg"
         },
         {
             type:"Desktop",
             name:"Design",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (2).jpg"
+            toph:"assets/images/Projects/p_name (2).jpg"
         },
         {
             type:"Web",
             name:"Brand",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (3).jpg"
+            toph:"assets/images/Projects/p_name (3).jpg"
         },
         {
             type:"Mobile",
             name:"Gtaphic",
             description:"orem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quibusdam architecto sapiente, ratione quod exercitationem adipisci dolore voluptata nam praesentium nihil in commodi natus, neque incidunt. Repellendus culpa quos vitae saepe libero molestias fugit u",
             link:"http://localhost:2004/profile/Zaki_Bross",
-            toph:"assets/IMGs/Projects/p_name (4).jpg"
+            toph:"assets/images/Projects/p_name (4).jpg"
         }
     ],
     nav_items:{
@@ -254,7 +218,7 @@ export let resume = {
         title: "Experiences",
         items_list: [
             {
-              name:"Freelancer",
+              name:"Lorem Ipsum.",
               time:"2019 - 2020",
               organisation:"UpWork",
               description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo odio consectetur ea ratione reprehenderit hic expedita ipsa iure deleniti. Ad voluptatem inventore, possimus exercitationem aliquam assumenda vitae recusandae doloribus dolore"
