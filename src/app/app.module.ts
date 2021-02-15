@@ -19,20 +19,18 @@ import { ServiceComponent } from './about/service/service.component';
 import { ResumeComponent } from './resume/resume.component';
 import { FormComponent } from './contact/form/form.component';
 import { InfoComponent } from './contact/info/info.component';
-import { MapComponent } from './contact/map/map.component';
 import { ExperiencesComponent } from './resume/experiences/experiences.component';
 import { EducationComponent } from './resume/education/education.component';
 import { SkillsComponent } from './resume/skills/skills.component';
 
 const routes:Routes = [
-  { path:'' , redirectTo:'.' , pathMatch:'full' },
-  { path:'.' , component:HomeComponent },
+  { path:'' , component:HomeComponent },
   { path:'about' , component:AboutComponent },
   { path:'projects' , redirectTo:'projects/All' },
   { path:'projects/:theme' , component:ProjectsComponent },
   { path:'contact' , component:ContactComponent },
   { path:'resume' , component:ResumeComponent },
-  { path:'**' , redirectTo:'.' }
+  { path:'**' , redirectTo:'' }
 ];
 
 @NgModule({
@@ -49,20 +47,15 @@ const routes:Routes = [
     ResumeComponent,
     FormComponent,
     InfoComponent,
-    MapComponent,
     ExperiencesComponent,
     EducationComponent,
     SkillsComponent
   ],
-  entryComponents:[ServiceComponent],
   imports: [
     BrowserModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyC_IMRSfg92wwJwvzR1P6rytvilyKPK6gc'
-    }),
     FormsModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})
   ],
   providers: [],
   bootstrap: [AppComponent]

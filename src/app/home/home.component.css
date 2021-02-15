@@ -1,5 +1,5 @@
 #bg_box{
-    backdrop-filter: blur(4px) brightness(50%);
+    background-color: #00000085;
 }
 .header{
     font-weight: 700;

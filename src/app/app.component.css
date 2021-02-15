@@ -2,30 +2,10 @@
     max-width: calc(100% - 120px);
     margin-left: 120px;
 }
-.container .surface_box{
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-    left: 0;
-    padding-left: 50%;
-    padding-top: 50vh;
-    overflow: hidden;
-    z-index: -1;
-}
 .copyright{
     padding: 20px;
     text-align: center;
     font-weight: 600;
-}
-.height_0{
-    height: 0;
-}
-.container .surface_box img{
-    filter: grayscale(100%) contrast(50%) brightness(100%);
-    max-width: unset;
-    min-width: 200%;
-    min-height: 200%;
-    transform: translate(-50%,-50%);
 }
 aside{
     width: 120px;
@@ -97,9 +77,6 @@ aside a p{
         top: 50%;
         font-size: 17px;
         animation: none;
-    }
-    .container .surface_box{
-        height: calc(100vh - 60px);
     }
     .nav_box{
         height: 100%;
