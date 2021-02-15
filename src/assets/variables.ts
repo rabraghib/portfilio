@@ -116,12 +116,7 @@ export let contact = {
             value:"(+212) 628036202",
             name:"Phone"
         }
-    ],
-    map_data:{
-        lat: 30.9398422,
-        lng:  -6.9369535,
-        zoom: 10
-    }
+    ]
 };
 
 export let projects = {
